@@ -60,6 +60,17 @@ body {
     
 }
 
+.ativado {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.buttons:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);;
+    cursor: pointer;
+}
+
 #div-submit {
     height: 40px;
     display: flex;
@@ -76,4 +87,10 @@ body {
     letter-spacing: 3px;
     font-size: 0.6em;
     font-weight: 700;
+}
+
+#submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
 }
